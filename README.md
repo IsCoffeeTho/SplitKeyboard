@@ -12,10 +12,12 @@ The design is two Raspberry Pi Picos hooked up to 30 buttons each (5 x 6) and co
 
 ### Left Side
 Left side is just a button panel and it sends its presses through the UART connection to the main board.
+
 ![Left Keyboard](./assets/Left.png)
 
 ### Right side
 Right side is the main board that takes all button presses and the UART connection and translates it into keypresses.
+
 ![Right Keyboard](./assets/Right.png)
 
 ## Hardware
